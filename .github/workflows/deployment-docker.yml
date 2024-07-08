@@ -34,7 +34,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
   # TODO Update with your GitHub username or organization
-  GHCR_ORG: "<ORGANIZATION>"
+  GHCR_ORG: "dkbast"
 
 jobs:
   build-and-push-image:
