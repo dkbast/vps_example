@@ -156,23 +156,29 @@ packages:
   serverpod:
     dependency: "direct main"
     description:
-      path: "/Users/damianbast/src/github.com/dkbast/serverpod/packages/serverpod"
-      relative: false
-    source: path
+      path: "packages/serverpod"
+      ref: HEAD
+      resolved-ref: "9f9f04fad5c628b148f4d02ad289ed079f3fc886"
+      url: "https://github.com/dkbast/serverpod.git"
+    source: git
     version: "2.0.1"
   serverpod_serialization:
     dependency: "direct overridden"
     description:
-      path: "/Users/damianbast/src/github.com/dkbast/serverpod/packages/serverpod_serialization"
-      relative: false
-    source: path
+      path: "packages/serverpod_serialization"
+      ref: HEAD
+      resolved-ref: "9f9f04fad5c628b148f4d02ad289ed079f3fc886"
+      url: "https://github.com/dkbast/serverpod.git"
+    source: git
     version: "2.0.1"
   serverpod_shared:
     dependency: "direct overridden"
     description:
-      path: "/Users/damianbast/src/github.com/dkbast/serverpod/packages/serverpod_shared"
-      relative: false
-    source: path
+      path: "packages/serverpod_shared"
+      ref: HEAD
+      resolved-ref: "9f9f04fad5c628b148f4d02ad289ed079f3fc886"
+      url: "https://github.com/dkbast/serverpod.git"
+    source: git
     version: "2.0.1"
   source_span:
     dependency: transitive
