@@ -24,7 +24,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  serverpod_flutter: 2.0.1
+  serverpod_flutter:
+    git:
+      url: git://github.com/dkbast/serverpod.git
+      path: packages/serverpod_flutter
   vps_example_client:
     path: ../vps_example_client
 

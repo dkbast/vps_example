@@ -7,7 +7,10 @@ environment:
   sdk: ">=3.2.0 <4.0.0"
 
 dependencies:
-  serverpod: 2.0.1
+  serverpod:
+    git:
+      url: git://github.com/dkbast/serverpod.git
+      path: packages/serverpod
 
 dev_dependencies:
   lints: ">=3.0.0 <5.0.0"
